@@ -3,6 +3,7 @@
 const element = document.getElementById('main');
 
 element.addEventListener("click", function(event) {
+  element.innerHTML = "Hey YA"
   alert('I was clicked!');
   console.log("This callback is working.")
 })
